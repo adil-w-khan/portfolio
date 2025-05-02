@@ -598,6 +598,29 @@ section,
   background-color: var(--accent-color);
 }
 
+
+.icon-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 40px;
+  margin-bottom: 10px;
+  padding: 25px 15px;
+}
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  padding-left: 10px;
+}
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
@@ -749,4 +772,10 @@ section,
   .contact .php-email-form {
     padding: 20px;
   }
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
